@@ -1,0 +1,51 @@
+/*==============================
+ table of contents
+  ==============================
+ 
+1.link
+2. text
+3.  responsive
+ */
+ /* =================
+   1. link
+ ===================*/
+
+
+ footer.flex {
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+ }
+footer.flex ul{
+  gap: 1rem;
+}
+
+footer.flex ul a{
+color: var(--title);
+font-size: 0.9rem;
+transition: 0.3s;
+font-weight: 400;
+ }
+ footer.flex ul a:hover{
+    color: var(--blue);
+    font-size: 1rem;
+    font-weight: 500;
+   
+   }
+   /* =================
+   2. text
+ ===================*/
+   p{
+    color: rgb(113 113 122 );
+   }
+
+   /* ==========================
+   3. media query=responsive 
+ ============================*/
+
+
+ @media (max-width:600px){
+ footer.flex {
+    flex-direction: column;
+    gap: 1.5rem;
+ }
+ }
