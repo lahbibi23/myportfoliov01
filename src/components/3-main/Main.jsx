@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import { project } from './projects';
 import "./main.css"
 function Main() {
